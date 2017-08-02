@@ -198,7 +198,7 @@
 #define USE_XARGS(...) __VA_ARGS__
 #define CFG_XARGS_PEDANTIC 0
 #define USE_XARGS_PEDANTIC(...)
-#define CFG_ARP 1
+#define CFG_ARP 0
 #define USE_ARP(...) __VA_ARGS__
 #define CFG_ARPING 0
 #define USE_ARPING(...)
@@ -298,7 +298,7 @@
 #define USE_MODPROBE(...)
 #define CFG_MORE 1
 #define USE_MORE(...) __VA_ARGS__
-#define CFG_NETSTAT 1
+#define CFG_NETSTAT 0
 #define USE_NETSTAT(...) __VA_ARGS__
 #define CFG_OPENVT 0
 #define USE_OPENVT(...)
@@ -308,7 +308,7 @@
 #define USE_PING(...)
 #define CFG_RESIZE 1
 #define USE_RESIZE(...) __VA_ARGS__
-#define CFG_ROUTE 1
+#define CFG_ROUTE 0
 #define USE_ROUTE(...) __VA_ARGS__
 #define CFG_SH 0
 #define USE_SH(...)
@@ -336,7 +336,7 @@
 #define USE_TFTP(...)
 #define CFG_TFTPD 0
 #define USE_TFTPD(...)
-#define CFG_TRACEROUTE 1
+#define CFG_TRACEROUTE 0
 #define USE_TRACEROUTE(...) __VA_ARGS__
 #define CFG_TR 1
 #define USE_TR(...) __VA_ARGS__
@@ -406,7 +406,7 @@
 #define USE_HOSTID(...)
 #define CFG_HWCLOCK 1
 #define USE_HWCLOCK(...) __VA_ARGS__
-#define CFG_IFCONFIG 1
+#define CFG_IFCONFIG 0
 #define USE_IFCONFIG(...) __VA_ARGS__
 #define CFG_INOTIFYD 1
 #define USE_INOTIFYD(...) __VA_ARGS__
